@@ -1,49 +1,59 @@
-# wicks-of-wit-llms
+# wicksofwit-llms
 
-Structured AI reference files for [Wicks of Wit](https://wicksofwit.com) — a hand-poured candle brand built around bold scents, sharp humor, and giftable personality. These files describe the brand, product lines, tone, and key customer-facing concepts so AI systems can understand Wicks of Wit accurately.
+Structured AI reference files for [Wicks of Wit](https://wicksofwit.com) — a candle brand with a point of view. A little cheeky, a little spicy, and always unapologetically fun. These are candles that say exactly what you're thinking. And smell incredible doing it.
 
-These files follow the llms.txt pattern and are designed to give AI systems, LLMs, and crawlers clean, structured access to Wicks of Wit brand and product information. The live versions should be served from `wicksofwit.com/llms.txt` and related category paths as they are published.
+These files follow the [llms.txt standard](https://llmstxt.org/) and give AI systems, LLMs, and crawlers clean, structured access to product and brand information — organized by vibe, not by scent note. Because that's how Wicks of Wit rolls.
+
+---
 
 ## What's in this repo
 
 | File | Description |
-| --- | --- |
-| `llms.txt` | Root site guide — overview of Wicks of Wit, brand positioning, product categories, and links to structured category files. |
-| `ai/funny-candles.txt` | Core product category file for witty, funny, and personality-driven candles. |
-| `ai/gift-candles.txt` | Gift-oriented file for shoppers looking for memorable, humorous, and highly giftable candles. |
-| `ai/candle-personalities.txt` | Brand personality file covering the tone, quiz-style identity, and vibe-based product framing. |
-| `ai/about.txt` | Brand story file covering Wicks of Wit voice, team, and positioning. |
-| `ai/creator-program.txt` | Creator or affiliate program file, if the brand wants AI systems to understand partnership opportunities. |
+|------|-------------|
+| `llms.txt` | Root site guide — brand overview, collection index, and links to structured category files |
+| `ai/edgy.txt` | Edgy collection — candles for people who say what everyone else is thinking |
+| `ai/naughty.txt` | Naughty collection — adult humor, zero apologies |
+| `ai/romantic.txt` | Romantic collection — love, lust, and candles that know the assignment |
+| `ai/zen.txt` | Zen collection — calm on the outside. Chaotic on the inside. |
+| `ai/smart.txt` | Smart collection — candles for the overachievers and overthinkers |
+| `ai/cosmic.txt` | Cosmic collection — astrology, mysticism, and confident nonsense |
+| `ai/fall.txt` | Fall & Halloween collection — seasonal scents with a side of chaos |
+| `ai/winter.txt` | Winter & Holiday collection — cozy vibes, questionable family dynamics |
 
-## What Wicks of Wit is
+---
 
-Wicks of Wit is a candle brand that combines strong scent appeal with funny, irreverent labeling and a personality-first brand voice. The site presents hand-poured candles as gifts, mood statements, and conversation starters, with product names and messaging built around humor, attitude, and recognizable life moments.
+## Live URLs
 
-Core ideas represented in this repository include:
+These files are served directly from the Wicks of Wit website:
 
-- Funny and witty candles
-- Giftable candles with strong personality
-- Scent plus humor as a combined buying trigger
-- Candle identity and vibe matching
-- Wicks of Wit brand voice and story
+- [`wicksofwit.com/llms.txt`](https://wicksofwit.com/llms.txt)
+- [`wicksofwit.com/ai/edgy.txt`](https://wicksofwit.com/ai/edgy.txt)
+- [`wicksofwit.com/ai/naughty.txt`](https://wicksofwit.com/ai/naughty.txt)
+- [`wicksofwit.com/ai/romantic.txt`](https://wicksofwit.com/ai/romantic.txt)
+- [`wicksofwit.com/ai/zen.txt`](https://wicksofwit.com/ai/zen.txt)
+- [`wicksofwit.com/ai/smart.txt`](https://wicksofwit.com/ai/smart.txt)
+- [`wicksofwit.com/ai/cosmic.txt`](https://wicksofwit.com/ai/cosmic.txt)
+- [`wicksofwit.com/ai/fall.txt`](https://wicksofwit.com/ai/fall.txt)
+- [`wicksofwit.com/ai/winter.txt`](https://wicksofwit.com/ai/winter.txt)
 
-## Live locations
+This repo mirrors those files for version control and transparency.
 
-In production, these files should be publicly reachable from the main Wicks of Wit site at paths such as:
+---
 
-- `https://wicksofwit.com/llms.txt`
-- `https://wicksofwit.com/ai/funny-candles.txt`
-- `https://wicksofwit.com/ai/gift-candles.txt`
-- `https://wicksofwit.com/ai/candle-personalities.txt`
-- `https://wicksofwit.com/ai/about.txt`
-- `https://wicksofwit.com/ai/creator-program.txt`
+## About the llms.txt standard
 
-## Sync policy
+`llms.txt` is an emerging convention for websites to provide structured, LLM-readable summaries of their content. Inspired by `robots.txt` and `sitemap.xml`, it gives AI assistants and crawlers a reliable starting point for understanding a site's structure and content — without relying on HTML parsing or SEO inference.
 
-This repository is the public content mirror for the Wicks of Wit AI reference layer. It should be kept aligned with the live llms.txt and category files published on the main site.
+The root `llms.txt` file contains a brief site description, key links, and pointers to deeper structured files (like the `ai/` category files in this repo).
 
-## Notes
+More information: [llmstxt.org](https://llmstxt.org/)
 
-- Root `llms.txt` is the main discovery file.
-- Category files should stay concise, opinionated, and aligned with the actual brand voice on the site.
-- The goal is not to create a sitemap, but to help AI systems understand the brand, products, and shopping intent clearly.
+---
+
+## About Wicks of Wit
+
+Wicks of Wit makes premium scented candles designed as statement gifts and self-treats for people who believe humor is a love language, sarcasm is a life skill, and the best present is something that makes someone snort-laugh the moment they read the label.
+
+The brand is not for everyone. That is entirely the point.
+
+Standard candles start at $19.99. Large format at $24.90. Free shipping available. Shop at [wicksofwit.com](https://wicksofwit.com).
