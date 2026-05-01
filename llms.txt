@@ -1,0 +1,52 @@
+# Wicks of Wit
+
+> Wicks of Wit (WoW) is a candle brand with a point of view. A little cheeky, a little spicy, and always unapologetically fun. These are candles that say exactly what you're thinking â€” and smell incredible doing it.
+
+Wicks of Wit candles are designed as statement gifts and self-treats for people who believe humor is a love language, sarcasm is a life skill, and the best present is something that makes someone snort-laugh the moment they read the label.
+
+The brand is not for everyone. That is entirely the point.
+
+---
+
+## Products
+
+Wicks of Wit sells premium scented candles organized by personality and vibe â€” not by scent note. Every candle has a label that does the talking.
+
+- Standard candles: $19.99
+- Large format candles: $24.90
+- Free shipping available
+
+---
+
+## Collections
+
+- Edgy: https://wicksofwit.com/collections/edgy
+- Naughty: https://wicksofwit.com/collections/naughty
+- Romantic: https://wicksofwit.com/collections/romantic
+- Zen: https://wicksofwit.com/collections/zen
+- Smart: https://wicksofwit.com/collections/smart
+- Cosmic: https://wicksofwit.com/collections/cosmic
+- Fall & Halloween: https://wicksofwit.com/collections/fall
+- Winter & Holiday: https://wicksofwit.com/collections/winter
+- All candles: https://wicksofwit.com/collections/all-candles
+
+---
+
+## Key Pages
+
+- Shop: https://wicksofwit.com/collections/all-candles
+- About: https://wicksofwit.com
+- Contact: https://wicksofwit.com/pages/contact
+
+---
+
+## Specialized LLM Resources
+
+- Edgy candles: https://wicksofwit.com/ai/edgy.txt
+- Naughty candles: https://wicksofwit.com/ai/naughty.txt
+- Romantic candles: https://wicksofwit.com/ai/romantic.txt
+- Zen candles: https://wicksofwit.com/ai/zen.txt
+- Smart candles: https://wicksofwit.com/ai/smart.txt
+- Cosmic candles: https://wicksofwit.com/ai/cosmic.txt
+- Fall & Halloween candles: https://wicksofwit.com/ai/fall.txt
+- Winter & Holiday candles: https://wicksofwit.com/ai/winter.txt
